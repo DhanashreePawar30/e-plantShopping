@@ -1,1 +1,24 @@
-import React from 'react'; export default function AboutUs(){return <section className="about-panel"><span className="about-icon">✿</span><div><p className="eyebrow">A little more green</p><h2>Rooted in everyday wellbeing</h2><p>Paradise Nursery makes plant care welcoming and achievable. Explore leafy favourites, fragrant companions, and easy-care plants for desks, shelves, and sunny corners. Our goal is simple: help you create a calmer, greener space, one plant at a time.</p></div></section>}
+
+import React from 'react';
+
+export default function AboutUs() {
+  return (
+    <div className="about-us-container">
+      <section className="about-panel">
+        <span className="about-icon">✿</span>
+
+        <div>
+          <p className="eyebrow">A little more green</p>
+          <h2>Rooted in everyday wellbeing</h2>
+
+          <p>
+            Paradise Nursery makes plant care welcoming and achievable.
+            Explore leafy favourites, fragrant companions, and easy-care
+            plants for desks, shelves, and sunny corners. Our goal is simple:
+            help you create a calmer, greener space, one plant at a time.
+          </p>
+        </div>
+      </section>
+    </div>
+  );
+}
